@@ -1,3 +1,8 @@
 {
-    "C_Cpp.default.compilerPath": "C:/msys64/ucrt64/bin/gcc.exe"
+    "C_Cpp.default.compilerPath": "C:/msys64/ucrt64/bin/g++.exe",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "code-runner.executorMap": {
+      "cpp": "cd $dir; g++ $fileName -o $fileNameWithoutExt.exe; & \"$dir/$fileNameWithoutExt.exe\"; del \"$dir/$fileNameWithoutExt.exe\""
+  }
+
 }
