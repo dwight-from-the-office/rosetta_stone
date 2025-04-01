@@ -23,6 +23,7 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
+                "-static",
                 "${file}",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
